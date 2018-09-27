@@ -1,2 +1,10 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: PFiTGdFEF64q+f5LFIpQgZoLBERkH/8MeylowK+nAcPznyQe2FneBo3ywZf5vWRAOwJvic0Mf46A419+6BiVMoN+Mm5TQAsCGRxltLZ6Q5JNMPqWHYUPvApFcbBx62kOlC5BKyJGH66U0UE0Ira5I1AEvCWhtO1UTx5yd1buEEZCOy2zvsOGwZ2z10vz8JCzFEHWY2WCdSyuKExuqNhXShi9EAif2/Iy/qG1QoRV+2VlivAIyE46jFHxM175RNTV0X0K+5/LKn4EB1DDqtrx1nxp3NDiqYxouloQk/dkhUrEQ3yt6h40tL9RBQLq58N3XJuSgIcE1M+DHA2BtD3De7mB+n+I7ClLnUP0QpFdmnB1/CAJ535AF3kDqlYmao5oqMF3y2mRDB8jtPJdou+d7K/sapLPZLnRjBRTus8UoV3TzvKA8DvMZ2soY8p5W4Tm1CN6WwaPSu5o5SlNcrrj01M90Cs5cEzDO+Q8qoJt8+uTa+M7HK/FMzINzMDPgGa/6iYSjngfxMzJ4YYyyid9hh1lKtBrldVUy7r2+lY+Oq0dqLU1FlEyaf9foopFbsVySJJy1yWGymy0ak1vmzmBAtp43Bm6DSr1eugrCWhC3oJec04sSdM9OuFFljphkgh3UUzu1UyJXUyZzHoPSXRiOd4UnxAMKmwgkrY8j76rGmA=
+  app: gentle-coast-85895
+  on:
+    repo: Blalexander/node-shopping-list-integration-tests
+    branch: tests-for-recipes
