@@ -1,10 +1,2 @@
 language: node_js
 node_js: node
-deploy:
-  provider: heroku
-  api_key:
-    secure: qJ1YORWB5SNZVU0ibuU0sPD2AeotQUJU/0xQGIkgAyvxYiHzsBYqFv4f3PO6U72zJRjlzevXotf5AVBEczNodPR/MEtkki45H1Gp8/D4CIsM9kJA14h//swNgh7/OIpFNo3K4zu/hTtc2yww7ZphawFcvswnXZq24oc6EfG5gMXtvVRs5UXsmV5lsiilP90sAE4RvHOU0m9MjfEM/SWmjBVzIj6lbTM/wOz9ewUKoQB1fJJJ7BGyUsPjxzCEd9WWY8Gtu1BUZiM4/IrVpgM5vyVSXxFp5JpO2h4tfDo9ZfvLoMBODuFCqYy0gtXHvb4KY5fnX8WbxsHNKq8S027qz1mLNKKTjCgP1KAxtYgZryk4lLzs5E4P4aMzKJcsmqRf+fXeirUSbd3Zcda4fJz9J3Cx53O+FAqN2DQl0PaOv9Mh25dlut7HBJRsC2CaPaCrZsQgA71Mv9o3ZfqG2ysHvOf4GC0IvYVK0v0kXnFlN6nBlYJUDXB3HVYLdvXN21+GOaIIGh4fgpq7UOsdyqvEoDNrkUcKsftuBxSlCHHoVA7lW4+00GNW7yVxBYcTUq5zGtg3j7Y9cytSyvyJOgyco8pAgctyTj0taPciawykQExgvjpnPYAZMz568m56czRgmXiVi6Sk16h1W/qAv5D9m+APe/Fbq3aJS7BBZFlOKwY=
-  app: https://polar-falls-25226.herokuapp.com/
-  on:
-    repo: Blalexander/node-shopping-list-integration-tests
-    branch: tests-for-recipes
